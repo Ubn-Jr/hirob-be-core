@@ -22,7 +22,7 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 - [ ] 12. Create handlers for MQTT routes.
 - [ ] 13. Test the API's endpoints.
 
-## Languages and Tools
+## Stack
 
 - [Go](https://go.dev/learn/)
 - [Authentication (JWT)](https://github.com/golang-jwt/jwt)
