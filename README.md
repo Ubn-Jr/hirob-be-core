@@ -22,7 +22,7 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 - [ ] 12. Create handlers for MQTT routes.
 - [ ] 13. Test the API's endpoints.
 
-## As the backend team, our objective is to:
+## As the backend team, our objective is to achieve the following goals
 
 1. **Design and Implement Scalable Infrastructure:** Ensure the server infrastructure scales efficiently to meet the demands of the users and services.
 
@@ -39,3 +39,25 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 7. **Collaborate and Communicate:** Work closely with other teams, especially the frontend team and the operations team, to ensure that there's clear communication and alignment in terms of requirements, implementations, and deployments.
 
 - By achieving these goals, we aim to provide a reliable, efficient, and effective backend that powers the entire application ecosystem.
+
+## LICENSE
+
+![GitHub](https://img.shields.io/github/license/UBN-jr/hirob-be-core?style=for-the-badge)
+
+## TEAM MEMBERS
+
+[Hüsamettin ARABACI](https://github.com/husamettinarabaci)
+
+[Amine GÜNEŞ](https://github.com/gnsamine)
+
+[Furkan ADIGÜZEL](https://github.com/furkanadiiguzel)
+
+[Merve GÖNCÜ](https://github.com/mervegonc)
+
+[Dilara DOĞAN](https://github.com/Sddilora)
+
+[Furkan KAYAPINAR](https://github.com/johsquaree)
+
+[Feyza Nur ŞAHİN](https://github.com/Feyzanrs)
+
+![GitHub contributors](https://img.shields.io/github/contributors/UBN-jr/hirob-be-core?style=for-the-badge)
