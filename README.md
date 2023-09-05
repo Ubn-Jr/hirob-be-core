@@ -44,17 +44,17 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 
 ![GitHub](https://img.shields.io/github/license/UBN-jr/hirob-be-core?style=for-the-badge)
 
-## TEAM MEMBERS
+## TEAM
 
 [Hüsamettin ARABACI](https://github.com/husamettinarabaci)
+
+[Dilara DOĞAN](https://github.com/Sddilora)
 
 [Amine GÜNEŞ](https://github.com/gnsamine)
 
 [Furkan ADIGÜZEL](https://github.com/furkanadiiguzel)
 
 [Merve GÖNCÜ](https://github.com/mervegonc)
-
-[Dilara DOĞAN](https://github.com/Sddilora)
 
 [Furkan KAYAPINAR](https://github.com/johsquaree)
 
