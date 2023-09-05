@@ -8,7 +8,7 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 
 ## TODO List for the Project's Backend Part (Phase 1)
 
-- [ ] 1. Discuss the project's backend structure and select the tools.
+- [x] 1. Discuss the project's backend structure and select the tools.
 - [ ] 2. Create a RESTful API using the designated framework.
 - [ ] 3. Discuss the project's database structure with other teams and select the tools.
 - [ ] 4. Create a Dockerfile.
@@ -21,6 +21,14 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 - [ ] 11. Create routes for MQTT communication.
 - [ ] 12. Create handlers for MQTT routes.
 - [ ] 13. Test the API's endpoints.
+
+## Languages and Tools
+
+- [Go](https://go.dev/learn/)
+- [Authentication (JWT)](https://github.com/golang-jwt/jwt)
+- [Authorization (RBAC)](https://github.com/casbin/casbin)
+- [Database (PostgreSQL)](https://www.postgresql.org/)
+- [ORM (GORM)](https://gorm.io/)
 
 ## As the backend team, our objective is to achieve the following goals
 
