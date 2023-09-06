@@ -56,7 +56,7 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 
 [Dilara DOĞAN](https://github.com/Sddilora) ( Team Leader )
 
-Hüsamettin ARABACI](https://github.com/husamettinarabaci) ( Senior Developer )
+[Hüsamettin ARABACI](https://github.com/husamettinarabaci) ( Senior Developer )
 
 [Amine GÜNEŞ](https://github.com/gnsamine)
 
