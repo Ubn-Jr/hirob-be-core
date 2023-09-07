@@ -25,6 +25,7 @@ HiROB is an educational initiative dedicated to enhancing children's arithmetic 
 ## Stack
 
 - [Go](https://go.dev/learn/)
+- [Web Framework (Gin)](https://gin-gonic.com/)
 - [Authentication (JWT)](https://github.com/golang-jwt/jwt)
 - [Authorization (RBAC)](https://github.com/casbin/casbin)
 - [Database (PostgreSQL)](https://www.postgresql.org/)
