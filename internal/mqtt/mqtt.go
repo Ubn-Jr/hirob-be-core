@@ -46,4 +46,3 @@ func Publish(message string) {
 	}
 	// client.Disconnect(250)
 }
-

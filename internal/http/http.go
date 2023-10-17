@@ -2,8 +2,10 @@ package http
 
 import (
 	"net/http"
+
+	mqtt "github.com/Ubn-Jr/hirob-be-core/internal/mqtt"
+
 	"github.com/gin-gonic/gin"
-	"mqtt"  //from mqtt.go
 )
 
 func setupHTTPServer() *gin.Engine {
@@ -16,7 +18,7 @@ func setupHTTPServer() *gin.Engine {
 			return
 		}
 
-		mqtt.Publish(movementData)
+		mqtt.Publish(string(movementData))
 		c.String(http.StatusOK, "Movement request sent to MQTT")
 	})
 
