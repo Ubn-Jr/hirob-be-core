@@ -19,7 +19,7 @@ func setupHTTPServer() *gin.Engine {
 		}
 
 		mqtt.Publish(string(movementData))
-		c.String(http.StatusOK, "Movement request sent to MQTT")
+		c.String(http.StatusOK, "Movement request szsdfdsfent to MQTT")
 	})
 
 	return r
