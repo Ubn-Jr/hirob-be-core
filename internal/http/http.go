@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func setupHTTPServer() *gin.Engine {
+func SetupHTTPServer() *gin.Engine {
 	r := gin.Default()
 
 	r.POST("/api/movement", func(c *gin.Context) {
@@ -21,6 +21,8 @@ func setupHTTPServer() *gin.Engine {
 		mqtt.Publish(string(movementData))
 		c.String(http.StatusOK, "Movement request sent to MQTT")
 	})
+
+	r.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
 
 	return r
 }
