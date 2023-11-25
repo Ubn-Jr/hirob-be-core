@@ -77,7 +77,7 @@ func Publish(message string) {
 	}
 }
 
-// Subscribe is a function that creates a client ( if it doesn't exist already) and subscribes to the "/pub/movements" topic with a quality of service (qos) of 2 (exactly once delivery guarantee for messages )
+// Subscribe is a function that creates a client and subscribes to a topic in MQTT.
 // It listens for new messages on the subscribed topic and prints them to the console.
 func Subscribe() {
 	var client = createClient()
