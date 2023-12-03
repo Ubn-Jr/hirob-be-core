@@ -37,3 +37,21 @@ func captureStandardOutput(f func()) string {
 	return (buf.String())
 
 }
+
+func TestCreateClient(t *testing.T) {
+	
+	// Assume a reset client
+	client = nil
+
+	// Call the createClient function
+	result := createClient()
+
+	// Check that the client is not nil
+	assert.NotNil(t, result)
+
+	// Call the createClient function once again
+	// This time, check that the client is not nil and is the same as the previous one
+	result2 := createClient()
+	assert.NotNil(t, result2)
+	assert.Equal(t, result, result2)
+}
