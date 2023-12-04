@@ -9,6 +9,31 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+func TestCreateClient(t *testing.T) {
+	// Save the current client to check later
+	oldClient := client
+
+	// Defer a function to reset the client after the test
+	defer func() {
+		client = oldClient
+	}()
+
+	// Assume a reset client
+	client = nil
+
+	// Call the createClient function
+	result := createClient()
+
+	// Check that the client is not nil
+	assert.NotNil(t, result)
+
+	// Call the createClient function once again
+	// This time, check that the client is not nil and is the same as the previous one
+	result2 := createClient()
+	assert.NotNil(t, result2)
+	assert.Equal(t, result, result2)
+}
+
 func TestPublish(t *testing.T) {
 	// Capture the standard output for later assertion
 	expectedOutput := captureStandardOutput(func() {
@@ -38,20 +63,3 @@ func captureStandardOutput(f func()) string {
 
 }
 
-func TestCreateClient(t *testing.T) {
-	
-	// Assume a reset client
-	client = nil
-
-	// Call the createClient function
-	result := createClient()
-
-	// Check that the client is not nil
-	assert.NotNil(t, result)
-
-	// Call the createClient function once again
-	// This time, check that the client is not nil and is the same as the previous one
-	result2 := createClient()
-	assert.NotNil(t, result2)
-	assert.Equal(t, result, result2)
-}
